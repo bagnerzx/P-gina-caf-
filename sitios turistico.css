@@ -1,0 +1,170 @@
+body {
+margin: 0;
+background-color:  #f6ddcc;
+color: #DDCDB2;
+  
+}
+
+header {
+background: url(img5.jpg) no-repeat center center/cover;
+padding: 100px 20px;
+color: white;
+text-align: center;
+font-family: "lato";
+font-weight: bold;
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 10px;
+background-color: #3A2416;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+text-align:center;
+}
+
+.logo {
+width: 80px;
+height: auto;
+}
+
+.menu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.menu ul li {
+margin-left: 20px;
+}
+
+.menu ul li a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+color: inherit;
+text-decoration: none;
+margin: 15px;
+}
+
+.menu ul li a:hover {
+color:aqua;
+}
+
+#principal {
+width: 75px;
+height: 75px;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+.lugares {
+display: flex;
+align-items: center;
+background-color: #3A2416;
+margin: 20px;
+padding: 25px; 
+border-radius: 15px;
+max-width: 1000px; 
+}
+
+.lugares img {
+width: 300px; 
+height: auto;
+border-radius: 15px;
+margin-right: 20px;
+}
+
+.lugares a {
+color: aqua;
+
+}
+
+.descripcion h2 {
+font-size: 24px; 
+}
+
+.descripcion p {
+font-size: 18px; 
+}
+
+h2 {
+color: white;
+font-family: "lato";
+font-weight: bold;
+}
+
+p {
+font-family: "lato";
+font-weight: normal;
+color: white;
+}
+
+footer {
+background-color: #3A2416;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.contenedor-principal {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.contenedor-secundario {
+color: white;
+background-color:  #3A2416;
+}
+
+.contenedor-secundario p a {
+color: aqua;
+}
+
+.contenedor-subtitulo {
+margin-top: 15px;
+font-size: 14px;
+}
+
+@font-face {
+font-family: "lato";
+src: url(/fuentes1/Lato-BlackItalic.ttf);
+font-weight: bold;
+font-style: bold;
+}
+
+@font-face {
+font-family: "lato";
+src: url(/fuentes1/Lato-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+}
+
+@media (max-width: 600px) {
+.lugares {
+width: 300px; 
+height: auto;
+border-radius: 15px;
+margin-right: 20px;
+flex-wrap: wrap;
+}
+
+.menu ul li {
+margin-left: 0px;
+}
+
+}
+
+
